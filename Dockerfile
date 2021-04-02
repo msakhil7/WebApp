@@ -6,7 +6,7 @@ LABEL maintainer=”akhilmanepalli@gmail.com”
 
 #ADD /var/lib/jenkins/workspace/demo-project/target/WebApp.war /usr/local/tomcat/webapps/
 
-ADD /target/WebApp.war /usr/local/tomcat/webapps/
+ADD /WebApp/target/WebApp.war /usr/local/tomcat/webapps/
 
 EXPOSE 8080
 
