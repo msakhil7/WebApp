@@ -16,7 +16,7 @@ spec:
 
   containers:
 
-  - image: msakhil7/samplewebapp
+  - image: msakhil7/webapplication
 
     command: ["sleep", "1000"]
 
